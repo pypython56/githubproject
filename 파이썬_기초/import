@@ -1,0 +1,7 @@
+
+def add(x,y):
+    return x+y
+#다를 파일에서 import 하여 add 함수를 사용할때 print("hello")
+#가 실행되는 것을 방지해준다
+if __name__=="__main__":
+   print("hello")
